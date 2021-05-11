@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      div{
+        border:5px solid gray;
+      }
+      #grid{
+        border:5px solid pink;
+        display: grid;
+        grid-template-columns: 150 1fr; /* fr:가변*/
+      }
+    </style>
+  </head>
+  <body>
+    <div id="grid">
+      <div>NAVAGATION</div>  <!-- 아무런 의미를 갖지 않는 , 디자인을 위한 태그 block level -->
+      <div>lorem</div>   <!--span: div와 같은 기능, but inline-->
+    </div>
+
+  </body>
+</html>
